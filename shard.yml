@@ -35,6 +35,11 @@ dependencies:
 development_dependencies:
   ameba:
     github: crystal-ameba/ameba
+  spectator:
+    github: icy-arctic-fox/spectator
+    version: ~> 0.10.5
+  vcr:
+    github: spoved/vcr.cr
   lucky_flow:
     github: luckyframework/lucky_flow
     version: ~> 0.7.3
