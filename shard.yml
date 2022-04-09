@@ -32,9 +32,17 @@ dependencies:
   jwt:
     github: crystal-community/jwt
     version: ~> 1.6.0
+  lexbor:
+    github: kostya/lexbor
+    version: ~> 3.0
 development_dependencies:
   ameba:
     github: crystal-ameba/ameba
+  spectator:
+    github: icy-arctic-fox/spectator
+    version: ~> 0.10.5
+  vcr:
+    github: spoved/vcr.cr
   lucky_flow:
     github: luckyframework/lucky_flow
     version: ~> 0.7.3
