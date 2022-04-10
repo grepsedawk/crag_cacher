@@ -2,6 +2,8 @@ require "xml"
 
 class MountainProject::Route
   property \
+    url : String?,
+    raw : String?,
     xml : XML::Node?,
     name : String?,
     rating_yds : String?
@@ -10,11 +12,17 @@ class MountainProject::Route
   end
 
   def url
-    "https://www.mountainproject.com/route/#{@id}"
+    @url ||= "https://www.mountainproject.com/route/#{@id}"
   end
 
   def raw : String
-    @raw ||= HTTP::Client.get(url).body
+    @raw ||= HTTP::Client.get(url).try do |response|
+      if [301, 302].includes?(response.status_code)
+        HTTP::Client.get(@url = response.headers["Location"])
+      else
+        response
+      end
+    end.body
   end
 
   def xml
