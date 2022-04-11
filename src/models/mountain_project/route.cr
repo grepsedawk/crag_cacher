@@ -14,7 +14,7 @@ class MountainProject::Route
 
   property lexbor : Lexbor::Parser?
 
-  def initialize(@id : Int64)
+  def initialize(@id : Int64, @name : String? = nil)
   end
 
   def url

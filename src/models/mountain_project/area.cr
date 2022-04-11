@@ -7,7 +7,7 @@ class MountainProject::Area
     raw : String?,
     name : String?,
     areas : Array(MountainProject::Area)?,
-    routes : Array(MountainProject::Route) = [] of MountainProject::Route
+    routes : Array(MountainProject::Route)?
 
   property lexbor : Lexbor::Parser?
 
@@ -59,28 +59,25 @@ class MountainProject::Area
   end
 
   def routes : Array(MountainProject::Route)
-    return [] of MountainProject::Route
+    @routes ||= lexbor
+      .css(".mp-sidebar")
+      .first
+      .scope
+      .nodes(:a)
+      .compact_map do |node|
+        node.attributes["href"].match(/\/route\/(\d+)/).try do |match|
+          MountainProject::Route.new(
+            id: match[1].to_i,
+            name: node.inner_text.strip
+          )
+        end
+      end.to_a
 
-    if @routes.empty?
-      @routes = lexbor
-        .css(".mp-sidebar")
-        .first
-        .scope
-        .nodes(:a)
-        .compact_map do |node|
-          node.attributes["href"].match(/\/route\/(\d+)/).try do |match|
-            MountainProject::Route.new(
-              id: match[1].to_i
-            )
-          end
-        end.to_a
-    end
+    # if @routes.empty?
+    #   @routes = areas.flat_map(&.routes)
+    # end || [] of MountainProject::Route
 
-    if @routes.empty?
-      @routes = areas.flat_map(&.routes)
-    end || [] of MountainProject::Route
-
-    @routes
+    # @routes
   end
 
   def load!
