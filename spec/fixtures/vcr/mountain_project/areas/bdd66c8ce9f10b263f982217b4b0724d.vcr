@@ -1,0 +1,29 @@
+HTTP/1.1 301 Moved Permanently
+Date: Mon, 11 Apr 2022 13:32:20 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 630
+Connection: close
+Server: Apache
+Set-Cookie: pageCount=1; expires=Thu, 08-Apr-2032 13:32:21 GMT; Max-Age=315360000; path=/; domain=.mountainproject.com
+Set-Cookie: XSRF-TOKEN=eyJpdiI6IlB4Z09FMEw2bktiXC9hMUQwdGU1Rm9RPT0iLCJ2YWx1ZSI6IjRuZ1VZZVwvbWhCMll5SnY2Z0x6d0w3U3czZlg3RkZMYURrR1p4S2c5Zmd4MjM0OW5hUEIwNWg1bUl5Z0Z1OGxhIiwibWFjIjoiMWRjMTRlYzA5NWI0NDkwNGNmODIwMTI1MWVjZmI4Y2M1ODBhYWUwNjI1OTExNTdmMjZkYTU3MzlkNDJkNGU0YyJ9; expires=Mon, 11-Apr-2022 15:32:21 GMT; Max-Age=7200; path=/; httponly
+Set-Cookie: laravel_session=eyJpdiI6Iitab0piRVFUSk11bkdCSzZ4RHZsRFE9PSIsInZhbHVlIjoiRFFkS1dvVHhYdDJGR05xNlh3dU1VKzlqSUk4SzgxOHhpS0NrNTJaZmRsMkt0TVhKZFBPS0ZvWE5rb0w1SFMrayIsIm1hYyI6ImZhNjcxNTc5YTc5NjNmODYyZjg4YmRiOWQ3YjI4MmEyOWUxMDg2NTQzMGJkY2NkNTE1NDU0ZDc3Njk2NGU0ODQifQ%3D%3D; expires=Mon, 11-Apr-2022 15:32:21 GMT; Max-Age=7200; path=/; httponly
+location: https://www.mountainproject.com/area/105745214/nautilus
+Cache-Control: max-age=0, must-revalidate, no-cache, no-store, private
+Pragma: no-cache
+X-AP-Request-Id: 1aef3089-0d8f-420c-978b-c839d98df518
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="robots" content="noindex,nofollow" />
+        <style>                body { background-color: #fff; color: #222; font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; margin: 0; }
+                .container { margin: 30px; max-width: 600px; }
+                h1 { color: #dc3545; font-size: 24px; }</style>
+    </head>
+    <body>
+                        <div class="container">
+                    <h1>Whoops, looks like something went wrong.</h1>
+                </div>
+    </body>
+</html>

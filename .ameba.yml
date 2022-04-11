@@ -3,5 +3,6 @@ Lint/UselessAssign:
   Description: Disallows useless variable assignments
   Excluded:
   - spec/models/mountain_project/route_spec.cr
+  - spec/models/mountain_project/area_spec.cr
   Enabled: true
   Severity: Warning

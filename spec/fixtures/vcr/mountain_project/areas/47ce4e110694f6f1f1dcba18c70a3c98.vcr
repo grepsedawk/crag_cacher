@@ -1,0 +1,29 @@
+HTTP/1.1 301 Moved Permanently
+Date: Mon, 11 Apr 2022 13:32:38 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 630
+Connection: close
+Server: Apache
+Set-Cookie: pageCount=1; expires=Thu, 08-Apr-2032 13:32:38 GMT; Max-Age=315360000; path=/; domain=.mountainproject.com
+Set-Cookie: XSRF-TOKEN=eyJpdiI6IkEya2IyelY0d0dWQks1SkZ1VUhJakE9PSIsInZhbHVlIjoiN0xYTHZKR3h3SlMza2JyRDJmRjhIa051bGtTSWltcHltUUx5NkpFQmgxUjJzNWEwUGNxK3YwNFVVUXhvVEt6YSIsIm1hYyI6IjgzNTkzNTNjOGE4ZGE0ZjI1YjAwNjFjZWE0YzE3ZmNhMzcxMDZlYmFlYmU3YmUzY2E2ODg5Nzg2N2Y5YTYxZmMifQ%3D%3D; expires=Mon, 11-Apr-2022 15:32:38 GMT; Max-Age=7200; path=/; httponly
+Set-Cookie: laravel_session=eyJpdiI6ImNyRXA0K2h6aUVQNElEdDhaR0VNSVE9PSIsInZhbHVlIjoicUVkUDR5MlV2UU1ERWFcL0lnUVwveHUxaG04Z01yMzF6TFZlb1NmakZhdmxtcGtOUkNIZFFuZ3VtaUxhQnhaY0R2IiwibWFjIjoiYzBlMGY5NTU0MjIwNjlkNWM4NzdhMTM1ZDI3ZDA2ZmMxNGIxODAxY2QyYzAwMjY4ZGM1ZmQ5N2E2Y2I3NDE4NyJ9; expires=Mon, 11-Apr-2022 15:32:38 GMT; Max-Age=7200; path=/; httponly
+location: https://www.mountainproject.com/area/121105443/guide-rock
+Cache-Control: max-age=0, must-revalidate, no-cache, no-store, private
+Pragma: no-cache
+X-AP-Request-Id: 2513145a-c704-40ec-beb2-63a05bac8dfa
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="robots" content="noindex,nofollow" />
+        <style>                body { background-color: #fff; color: #222; font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; margin: 0; }
+                .container { margin: 30px; max-width: 600px; }
+                h1 { color: #dc3545; font-size: 24px; }</style>
+    </head>
+    <body>
+                        <div class="container">
+                    <h1>Whoops, looks like something went wrong.</h1>
+                </div>
+    </body>
+</html>

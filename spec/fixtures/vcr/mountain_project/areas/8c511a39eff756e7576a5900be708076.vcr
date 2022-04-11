@@ -1,0 +1,29 @@
+HTTP/1.1 301 Moved Permanently
+Date: Mon, 11 Apr 2022 13:32:18 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 630
+Connection: close
+Server: Apache
+Set-Cookie: pageCount=1; expires=Thu, 08-Apr-2032 13:32:18 GMT; Max-Age=315360000; path=/; domain=.mountainproject.com
+Set-Cookie: XSRF-TOKEN=eyJpdiI6IkJrWnZBRGhBN3JpUnNWMkpoUE5qOEE9PSIsInZhbHVlIjoid3Z5aHdhaXpwN0x1XC9uekNUOVVuVkFTcHFRVFZcL09TSmpIR3lDNWhwOGdONDc1aEdwYnJBVVh1Y3pPbkVJdXR4IiwibWFjIjoiOGNkNmNhNTIyZDIwNjg4ODlhM2RlOGE2ZTg4YmYyNDVkYzVjZThkNjI0YzljZjFlNzYyMWNmYjgxNTJhMTBiNSJ9; expires=Mon, 11-Apr-2022 15:32:18 GMT; Max-Age=7200; path=/; httponly
+Set-Cookie: laravel_session=eyJpdiI6IlVLcjdNSEY2cmlHU0NNU3BuUFZHVkE9PSIsInZhbHVlIjoiODQ3V29YQUdvcytMZVV0MEVMRGlFME9jQ1k2SGd6UFl6djAwTzRtZnlPN2s3UmxBd2xreWludWFtWjZ3SWFyUSIsIm1hYyI6ImFhYjk5NDMxY2UyMTNkMjk3ZmFjZjI2NmYzYTA2NGE4YWJiNWRhYmRjNzYzMWI4YmU5MWRiMWI3ZTgxMjU2NzUifQ%3D%3D; expires=Mon, 11-Apr-2022 15:32:18 GMT; Max-Age=7200; path=/; httponly
+location: https://www.mountainproject.com/area/121105367/ashford
+Cache-Control: max-age=0, must-revalidate, no-cache, no-store, private
+Pragma: no-cache
+X-AP-Request-Id: 2ce69c5e-4168-480d-8ad2-949267852ad8
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="robots" content="noindex,nofollow" />
+        <style>                body { background-color: #fff; color: #222; font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; margin: 0; }
+                .container { margin: 30px; max-width: 600px; }
+                h1 { color: #dc3545; font-size: 24px; }</style>
+    </head>
+    <body>
+                        <div class="container">
+                    <h1>Whoops, looks like something went wrong.</h1>
+                </div>
+    </body>
+</html>

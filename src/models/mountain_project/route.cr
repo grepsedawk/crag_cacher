@@ -1,9 +1,8 @@
-require "lexbor"
-
 class MountainProject::Route
   include LuckyCache::Cachable
 
   property \
+    id : Int64,
     url : String?,
     raw : String?,
     name : String?,
