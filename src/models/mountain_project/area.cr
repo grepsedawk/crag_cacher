@@ -11,7 +11,7 @@ class MountainProject::Area
 
   property lexbor : Lexbor::Parser?
 
-  def initialize(@id : Int64)
+  def initialize(@id : Int64, @name : String? = nil)
   end
 
   def url
@@ -51,13 +51,16 @@ class MountainProject::Area
       .compact_map do |node|
         node.attributes["href"].match(/\/area\/(\d+)/).try do |match|
           MountainProject::Area.new(
-            id: match[1].to_i
+            id: match[1].to_i,
+            name: node.inner_text.strip
           )
         end
       end.to_a
   end
 
   def routes : Array(MountainProject::Route)
+    return [] of MountainProject::Route
+
     if @routes.empty?
       @routes = lexbor
         .css(".mp-sidebar")
