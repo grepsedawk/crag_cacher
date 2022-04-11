@@ -72,12 +72,6 @@ class MountainProject::Area
           )
         end
       end.to_a
-
-    # if @routes.empty?
-    #   @routes = areas.flat_map(&.routes)
-    # end || [] of MountainProject::Route
-
-    # @routes
   end
 
   def load!
