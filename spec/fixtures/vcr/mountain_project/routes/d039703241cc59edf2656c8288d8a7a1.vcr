@@ -1,16 +1,16 @@
 HTTP/1.1 301 Moved Permanently
-Date: Mon, 11 Apr 2022 02:59:42 GMT
+Date: Mon, 11 Apr 2022 21:24:38 GMT
 Content-Type: text/html; charset=UTF-8
 Content-Length: 630
 Connection: close
 Server: Apache
-Set-Cookie: pageCount=1; expires=Thu, 08-Apr-2032 02:59:42 GMT; Max-Age=315360000; path=/; domain=.mountainproject.com
-Set-Cookie: XSRF-TOKEN=eyJpdiI6IkxjRjN3RnJWajB1TnZVTW9nV09WWVE9PSIsInZhbHVlIjoic0tucElqU0x2Z3BCVXlPbGJXR0xuUk1LeHA3M0YremY0KzdSc0NIZkVtQVNzTXBWZ3JTdjVSSGs3dGFablN5NyIsIm1hYyI6Ijk5YzAwNDM4NWI2MGZhMjc3NjFlODQzOTMwY2YxNmY2ZTBlYTk3ZWI5ZWFmYTMzNWVjNDAyNTg0NWUxYTJmMjMifQ%3D%3D; expires=Mon, 11-Apr-2022 04:59:42 GMT; Max-Age=7200; path=/; httponly
-Set-Cookie: laravel_session=eyJpdiI6Iko2MzlXRzZjWEkwZ0I1eTI5TU5lRVE9PSIsInZhbHVlIjoiZzlRMW5UZkFmV3dUTWtvdGwrd3kwR3lINW5yV1ZBeDZNK2o1VTJRTHFNSmsyRjVNZ3FodTk0M0lMZFhzYUhmbCIsIm1hYyI6IjE2OTVjYzgzZjEzYmNhYjcxYTRhMmY1YTNmMjRlZDFhYWFkODhjMGU3YmU4MWFiOTZjOWRkMTAwM2U3OThkN2MifQ%3D%3D; expires=Mon, 11-Apr-2022 04:59:42 GMT; Max-Age=7200; path=/; httponly
+Set-Cookie: pageCount=1; expires=Thu, 08-Apr-2032 21:24:38 GMT; Max-Age=315360000; path=/; domain=.mountainproject.com
+Set-Cookie: XSRF-TOKEN=eyJpdiI6InBJcUFmSVlKRGxhRlBnTHFVeW9MNVE9PSIsInZhbHVlIjoiXC9ueUk4ZDV6czQzWW54cUU0eFZYYjk4cGpCVW9zSmhwQ0NTcU1BOXhzcFVmVkdMVExcL3BOVkExNE1oKzY5TU1KIiwibWFjIjoiNDY2Mzk5NTM2ODU1NThjMGI1OTkwZGVhMGMzMWQ5Y2NmZWFjNDlmZmI3NDM5NWUxNjBjZjFkN2RhODNlZmYwYiJ9; expires=Mon, 11-Apr-2022 23:24:38 GMT; Max-Age=7200; path=/; httponly
+Set-Cookie: laravel_session=eyJpdiI6IlNlZmRWQnp1bG9tWXE4c3NjejRjblE9PSIsInZhbHVlIjoiaVdqdDBOeGtYZGUrVERHY2xYOXR0TXVIZkg4cm1lK0hEMFZmSDlNT21tZUFPcjNzWjk5SUpQM3dsZ3hwUkFqVSIsIm1hYyI6ImNhZWE1OWVkNmMxMGU5ZDkwNjVkNTVkYjZmZmUzZGYxMDZhMGU2YmJmMWQzNzBiNzcyZGY3NTgzMGZjMTA3YzgifQ%3D%3D; expires=Mon, 11-Apr-2022 23:24:38 GMT; Max-Age=7200; path=/; httponly
 location: https://www.mountainproject.com/route/105835705/southeast-buttress
 Cache-Control: max-age=0, must-revalidate, no-cache, no-store, private
 Pragma: no-cache
-X-AP-Request-Id: 5015aa49-a27a-4add-ab6e-4ae5aa40c909
+X-AP-Request-Id: 1fc9bad9-755c-4607-b3f2-d52297d35d05
 
 <!DOCTYPE html>
 <html>

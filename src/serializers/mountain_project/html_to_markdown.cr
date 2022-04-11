@@ -5,7 +5,7 @@ module MountainProject::HtmlToMarkdown
       when :a
         "[#{convert(child)}](#{converted_url(child.attributes["href"]?)})"
       when :img
-        "![#{child.attributes["alt"]}](#{child.attributes["src"]})"
+        "![#{child.attributes["alt"]?}](#{child.attributes["src"]})"
       when :_text
         child.tag_text.strip
       when :br

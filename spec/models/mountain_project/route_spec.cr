@@ -37,6 +37,9 @@ Spectator.describe MountainProject::Route do
       "All Locations"
     )
     expect(route.mp_votes).to eq "Avg: 3.8 from 1,549 votes"
+    expect(route.access_notes).to contain(
+      "The Mohonk Preserve",
+    )
   end
 
   provided id = 105835705 do

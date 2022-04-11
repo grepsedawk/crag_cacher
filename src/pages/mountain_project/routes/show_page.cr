@@ -13,6 +13,14 @@ class MountainProject::Routes::ShowPage < AuthLayout
       text route.first_ascent
     end
     div route.mp_votes
+
+    unless route.access_notes.empty?
+      details do
+        summary "IMPORTANT: Access Notes"
+        raw Markd.to_html route.access_notes
+      end
+    end
+
     h2 "Description"
     div do
       raw Markd.to_html route.description

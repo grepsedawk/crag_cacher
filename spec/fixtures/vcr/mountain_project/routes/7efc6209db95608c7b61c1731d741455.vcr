@@ -1,16 +1,16 @@
 HTTP/1.1 200 OK
-Date: Mon, 11 Apr 2022 05:05:26 GMT
+Date: Mon, 11 Apr 2022 21:24:39 GMT
 Content-Type: text/html; charset=UTF-8
 Connection: close
 Server: Apache
-Set-Cookie: photoIds=%5B%5D; expires=Tue, 12-Apr-2022 05:05:26 GMT; Max-Age=86400; path=/; domain=.mountainproject.com
-Set-Cookie: photosTitle=Nearby+Photos; expires=Tue, 12-Apr-2022 05:05:26 GMT; Max-Age=86400; path=/; domain=.mountainproject.com
-Set-Cookie: pageCount=1; expires=Thu, 08-Apr-2032 05:05:26 GMT; Max-Age=315360000; path=/; domain=.mountainproject.com
-Set-Cookie: XSRF-TOKEN=eyJpdiI6ImVWNlI4dlVCQldaSHhcL0lNbXpYTXdRPT0iLCJ2YWx1ZSI6Im1EbWhDYjg4eGpBNjVHd0ZxMkt6Sks4ZFFQckg0aXJ4aHVZZTBMeE1lOE1NbmNjakgrQ3ZpYzBFbitqa3hoKzciLCJtYWMiOiI3N2YzYjc2ZGQzZTYwYzgzMmFlNDY5NmUzOGE4ODUzNDBkY2Y1MGZkNzQzZjVhYzY0ZDhhNjYzOWZhMWVkNTJjIn0%3D; expires=Mon, 11-Apr-2022 07:05:26 GMT; Max-Age=7200; path=/; httponly
-Set-Cookie: laravel_session=eyJpdiI6IjNWNytzVUFxUzZ5ZFAxYzc2aGo4WGc9PSIsInZhbHVlIjoiNkF2OEFhejB1K0dWZmhPZGtSK3ZBaTh2ZmtzUThYTnJWQkNvWjBBTGpIWjVKMWZiZEppRjRRbzFzRGU2UU85NiIsIm1hYyI6ImY1MzA3NjM3NWVkOWRiMDg1MzhkMWM2NzVjNTA3Mjg4ZDBkMmUwMzRhY2M2N2YwZTA3YjczOThlYWQzOWQzNzQifQ%3D%3D; expires=Mon, 11-Apr-2022 07:05:26 GMT; Max-Age=7200; path=/; httponly
+Set-Cookie: photoIds=%5B%5D; expires=Tue, 12-Apr-2022 21:24:39 GMT; Max-Age=86400; path=/; domain=.mountainproject.com
+Set-Cookie: photosTitle=Nearby+Photos; expires=Tue, 12-Apr-2022 21:24:39 GMT; Max-Age=86400; path=/; domain=.mountainproject.com
+Set-Cookie: pageCount=1; expires=Thu, 08-Apr-2032 21:24:39 GMT; Max-Age=315360000; path=/; domain=.mountainproject.com
+Set-Cookie: XSRF-TOKEN=eyJpdiI6ImR4akp0U0FqY29EdXFVTGs1MG52Unc9PSIsInZhbHVlIjoiNGxKVFpBMnZEVFkxdUpjekZwZE1DQnBCNnJvZmEwQTYzN0dYRWJOUW5CNlJCTW13MFp5U1dxeHZwUDVJNHhiRSIsIm1hYyI6IjFkNWU4YzIwNWJiZGM1MjVhNmU1OGRiYzA4M2JmOGJmZTliNzUyODk0NGRkMmUxOTc1MjlhNDc2YTA1MDg0NjgifQ%3D%3D; expires=Mon, 11-Apr-2022 23:24:39 GMT; Max-Age=7200; path=/; httponly
+Set-Cookie: laravel_session=eyJpdiI6IkZWQWNDemlMQ2ZBd2dtMW1VS1F0SFE9PSIsInZhbHVlIjoiMmpTNFF4U1NGdUYrVUZ3VWMyTjBRSGY4NExKOWlZZDdKVWRVTW1XQXRtS25iQ0FtUXo1eXNvZUNBa2ExUFIyZSIsIm1hYyI6ImJjNDA4ZGYwMmQyOGRjNWRhZTkwMzVkMTFkZmI0NGNkMDdkNmZkZDhmYjkwYjZkYjhiNWNmNzNiYzk0OGEwZDcifQ%3D%3D; expires=Mon, 11-Apr-2022 23:24:39 GMT; Max-Age=7200; path=/; httponly
 Cache-Control: max-age=0, must-revalidate, no-cache, no-store, private
 Pragma: no-cache
-X-AP-Request-Id: 9a7a0a95-89e3-40d3-86ea-4d20071ebbc7
+X-AP-Request-Id: b912d756-b468-45cc-b9ee-83267106e7b8
 Vary: Accept-Encoding
 Content-Length: 76108
 
@@ -141,7 +141,7 @@ Content-Length: 76108
                 'brandColor': '#336799',
                 'riderRight': '/img/climb/climberRight.svg',
                 'riderLeft': '/img/climb/climberRight.svg',
-                'laravelToken': '4PAdD8r2kDkCQE60s3PenU0oXamZPbchrw4NcXHg',
+                'laravelToken': 'JQjKRRlQGVNdj8Vjn1K2WIUkqPqK8oxAZIXOHF9r',
                 'isProd': '1'
             };
         })(window);
@@ -229,7 +229,7 @@ Content-Length: 76108
         
                     <div id="g-recaptcha-container-modal-signup"></div>
             </div>
-    <input type="hidden" name="_token" value="4PAdD8r2kDkCQE60s3PenU0oXamZPbchrw4NcXHg">
+    <input type="hidden" name="_token" value="JQjKRRlQGVNdj8Vjn1K2WIUkqPqK8oxAZIXOHF9r">
     <button type="submit" class="btn btn-primary btn-lg">Sign Up</button>
 </form>
         <div class="orSeparator">
@@ -244,7 +244,7 @@ Content-Length: 76108
     <div class="form-group tighter">
         <input type="password" name="pass" class="form-control form-control-lg signup-captcha-hide" placeholder="Password">
     </div>
-    <input type="hidden" name="_token" value="4PAdD8r2kDkCQE60s3PenU0oXamZPbchrw4NcXHg">
+    <input type="hidden" name="_token" value="JQjKRRlQGVNdj8Vjn1K2WIUkqPqK8oxAZIXOHF9r">
     <button type="submit" class="btn btn-primary btn-lg">Log In</button>
 </form>
     <p class="mt-2 text-xs-center"><a class="lost-password-toggle" href="#">Password help</a></p>
@@ -262,7 +262,7 @@ Content-Length: 76108
                             <div id="g-recaptcha-container-modal-password"></div>
                     </div>
 
-        <input type="hidden" name="_token" value="4PAdD8r2kDkCQE60s3PenU0oXamZPbchrw4NcXHg">
+        <input type="hidden" name="_token" value="JQjKRRlQGVNdj8Vjn1K2WIUkqPqK8oxAZIXOHF9r">
         <button type="submit" class="btn btn-primary btn-lg">Send Reset Email</button>
     </form>
 
@@ -945,8 +945,8 @@ Content-Length: 76108
                                 <tr>
                                     <td class="pr-half text-nowrap">Page Views:</td>
                                     <td>
-                                        2,060 total &middot;
-                                        56/month
+                                        2,103 total &middot;
+                                        57/month
                                     </td>
                                 </tr>
                                 <tr>

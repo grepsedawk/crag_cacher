@@ -1,16 +1,16 @@
 HTTP/1.1 301 Moved Permanently
-Date: Mon, 11 Apr 2022 13:32:19 GMT
+Date: Mon, 11 Apr 2022 21:24:40 GMT
 Content-Type: text/html; charset=UTF-8
 Content-Length: 630
 Connection: close
 Server: Apache
-Set-Cookie: pageCount=1; expires=Thu, 08-Apr-2032 13:32:19 GMT; Max-Age=315360000; path=/; domain=.mountainproject.com
-Set-Cookie: XSRF-TOKEN=eyJpdiI6ImhDNk5OTkIxZkdLbFFvWlkxSkJsOVE9PSIsInZhbHVlIjoiMU1EendqUXJuQjJjTldnTklPSyt4eUE4YVR3djVJOXNlZktFNU04XC81MGRpN05iOWtyNUdvUldZZTg2SUphNlMiLCJtYWMiOiI5ZmU0MTE4ODkzNjhhMGI2NzU3ZjA3MTIzOTY5ODQzMTU0MmJjNTA4OTllYTlkNTVmYzk4ZWE0ZTUyMWI1YTZkIn0%3D; expires=Mon, 11-Apr-2022 15:32:19 GMT; Max-Age=7200; path=/; httponly
-Set-Cookie: laravel_session=eyJpdiI6IjdBdHU0XC8yV3M2c1czWTUzOSs5emhnPT0iLCJ2YWx1ZSI6IjlsQVUrNWRvaXFReFNuT0FUd0dFY2JLZFp3SVZWb2tBbExZRHpYZWlYaUYyMUhsNmdYS1RxWTJvdU5pMFdIT0UiLCJtYWMiOiI3ODMwYTEzYzEzMjdmZmI3ZTcwZGY3OGIzYWVhYTJhMmNkYzU4YjdkY2ExZDNiZjE4NTkwMDgyYjNkYzAyNzI1In0%3D; expires=Mon, 11-Apr-2022 15:32:19 GMT; Max-Age=7200; path=/; httponly
+Set-Cookie: pageCount=1; expires=Thu, 08-Apr-2032 21:24:40 GMT; Max-Age=315360000; path=/; domain=.mountainproject.com
+Set-Cookie: XSRF-TOKEN=eyJpdiI6InRBVWdGN0JcL2U0TmpqZnhjUDVXMm93PT0iLCJ2YWx1ZSI6Ik95YjVrUkxvZml5WGxXbGIrUEF0M2wyZ01oZkxXcmd2ak0xZUxOUnI0cEljSVFyczVpSUxEWmVDRlwvMWJPdVwvUyIsIm1hYyI6ImQ0YWJiNGMwZjhiOWU2ZmZiOGE1ODlmYjUzYTkwYTBiZjdiMGQ1MzY4N2VjNDRmZDdlODRiNDM5YzQ1MTllODkifQ%3D%3D; expires=Mon, 11-Apr-2022 23:24:40 GMT; Max-Age=7200; path=/; httponly
+Set-Cookie: laravel_session=eyJpdiI6IjRaczVrZTJXVFJlcnJGR1g4RVZIMHc9PSIsInZhbHVlIjoiTzBhZ1Z2Q01cL3NCeWtyU3g1NHBJN3Npb1d4MWx1TW85V091TUxkd1NNcGwwUDVQM2VWenljaWZoUlAxWlJGcGciLCJtYWMiOiI2MTI2ZTY5ZDkyYzYwOGNjMGZkZmM5ZjMxYzJhZGFhYjQ5Y2YzNjQ0NzJjZTcxOWE0NzZkNDliZDA1NzE4MjU1In0%3D; expires=Mon, 11-Apr-2022 23:24:40 GMT; Max-Age=7200; path=/; httponly
 location: https://www.mountainproject.com/area/105744307/vedauwoo
 Cache-Control: max-age=0, must-revalidate, no-cache, no-store, private
 Pragma: no-cache
-X-AP-Request-Id: 68ddee58-02e5-4213-b68f-2fd789d52613
+X-AP-Request-Id: 9ff175e3-d713-4133-b4d0-a25adeedb492
 
 <!DOCTYPE html>
 <html>

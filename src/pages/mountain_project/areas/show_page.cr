@@ -8,6 +8,13 @@ class MountainProject::Areas::ShowPage < AuthLayout
 
     h1 area.name
 
+    unless area.access_notes.empty?
+      details do
+        summary "IMPORTANT: Access Notes"
+        raw Markd.to_html area.access_notes
+      end
+    end
+
     unless area.areas.empty?
       h2 "Areas"
       ul do

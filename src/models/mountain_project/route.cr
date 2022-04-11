@@ -53,6 +53,12 @@ class MountainProject::Route
     @first_ascent ||= lexbor.css(".description-details td")[3].inner_text.strip
   end
 
+  def access_notes
+    @access_notes ||= lexbor.css("#access-notes").first?.try do |node|
+      HtmlToMarkdown.convert node
+    end || ""
+  end
+
   def rating
     @rating ||= lexbor.css("h2.inline-block.mr-2").first.children.map do |node|
       if node.inner_text.includes? "YDS"

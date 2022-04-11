@@ -1,16 +1,16 @@
 HTTP/1.1 301 Moved Permanently
-Date: Mon, 11 Apr 2022 13:32:18 GMT
+Date: Mon, 11 Apr 2022 21:24:40 GMT
 Content-Type: text/html; charset=UTF-8
 Content-Length: 630
 Connection: close
 Server: Apache
-Set-Cookie: pageCount=1; expires=Thu, 08-Apr-2032 13:32:18 GMT; Max-Age=315360000; path=/; domain=.mountainproject.com
-Set-Cookie: XSRF-TOKEN=eyJpdiI6IkJrWnZBRGhBN3JpUnNWMkpoUE5qOEE9PSIsInZhbHVlIjoid3Z5aHdhaXpwN0x1XC9uekNUOVVuVkFTcHFRVFZcL09TSmpIR3lDNWhwOGdONDc1aEdwYnJBVVh1Y3pPbkVJdXR4IiwibWFjIjoiOGNkNmNhNTIyZDIwNjg4ODlhM2RlOGE2ZTg4YmYyNDVkYzVjZThkNjI0YzljZjFlNzYyMWNmYjgxNTJhMTBiNSJ9; expires=Mon, 11-Apr-2022 15:32:18 GMT; Max-Age=7200; path=/; httponly
-Set-Cookie: laravel_session=eyJpdiI6IlVLcjdNSEY2cmlHU0NNU3BuUFZHVkE9PSIsInZhbHVlIjoiODQ3V29YQUdvcytMZVV0MEVMRGlFME9jQ1k2SGd6UFl6djAwTzRtZnlPN2s3UmxBd2xreWludWFtWjZ3SWFyUSIsIm1hYyI6ImFhYjk5NDMxY2UyMTNkMjk3ZmFjZjI2NmYzYTA2NGE4YWJiNWRhYmRjNzYzMWI4YmU5MWRiMWI3ZTgxMjU2NzUifQ%3D%3D; expires=Mon, 11-Apr-2022 15:32:18 GMT; Max-Age=7200; path=/; httponly
+Set-Cookie: pageCount=1; expires=Thu, 08-Apr-2032 21:24:40 GMT; Max-Age=315360000; path=/; domain=.mountainproject.com
+Set-Cookie: XSRF-TOKEN=eyJpdiI6IkhQSWhvMWdHVVRvUlR1RnFuR0hqV1E9PSIsInZhbHVlIjoibjRjaWdSN2I2YklMZU1sWFJxYWx4ckFrUlM1dTRoU0NHeTVZVWpMalNmXC9ZZ1wvR3pvZCs1U2RrR1VXVStQdGFPIiwibWFjIjoiZDBiNWE3M2VmZTI0MjYwMTZiNzI2Mzc4MzU1ZWNhMmMzNjRlN2NlOGVkNzBhYjlmM2ZmZDAxMDNiNmVhYmE5ZCJ9; expires=Mon, 11-Apr-2022 23:24:40 GMT; Max-Age=7200; path=/; httponly
+Set-Cookie: laravel_session=eyJpdiI6Ik9GeGwrY2FWamJpXC93Qlg2YUtIa1p3PT0iLCJ2YWx1ZSI6IitSZ1wvNWFCd1dlUjU3bTZuSGRnMEpuMGk2M2NcL2VadEJRTlFcLytqaWozbXFhNHhRYWRQS0l1d2plV2RUV0ZBU3YiLCJtYWMiOiI0YTI0YzFhZDlkNWQ2ODQ4Y2Y4NDJlM2EyMzQ5YWY4YWI3YmRmODcxOTM2YmI1ZWIyMDYwOGQ0MjcwZWI1MzBhIn0%3D; expires=Mon, 11-Apr-2022 23:24:40 GMT; Max-Age=7200; path=/; httponly
 location: https://www.mountainproject.com/area/121105367/ashford
 Cache-Control: max-age=0, must-revalidate, no-cache, no-store, private
 Pragma: no-cache
-X-AP-Request-Id: 2ce69c5e-4168-480d-8ad2-949267852ad8
+X-AP-Request-Id: 7ac1aa0a-b726-4057-9183-d35f8c913ba4
 
 <!DOCTYPE html>
 <html>

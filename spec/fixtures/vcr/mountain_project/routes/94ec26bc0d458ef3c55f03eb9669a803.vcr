@@ -1,16 +1,16 @@
 HTTP/1.1 301 Moved Permanently
-Date: Sun, 10 Apr 2022 23:51:47 GMT
+Date: Mon, 11 Apr 2022 21:24:36 GMT
 Content-Type: text/html; charset=UTF-8
 Content-Length: 630
 Connection: close
 Server: Apache
-Set-Cookie: pageCount=1; expires=Wed, 07-Apr-2032 23:51:47 GMT; Max-Age=315360000; path=/; domain=.mountainproject.com
-Set-Cookie: XSRF-TOKEN=eyJpdiI6ImJ6RHgzcUZcL1FnMzFNaVQ1ZUJ1UG1RPT0iLCJ2YWx1ZSI6IlJpZmxGUjN6elVKRjFGdGZPdG5tVTlRY29KSVwvNDMrblpuT0FsNVF4TTRoblNDRzc1ZjFQa2FGdXdcL3M3TnBXQiIsIm1hYyI6IjYwYWZlNWUwNjBiYzUxYWQ4ODJkYjg4MWVhZjg3NWQ1Y2Y3NjUwZWJlNTZmNmM4ZDRmYTkyMTFhY2RkNjhmYWUifQ%3D%3D; expires=Mon, 11-Apr-2022 01:51:47 GMT; Max-Age=7200; path=/; httponly
-Set-Cookie: laravel_session=eyJpdiI6InlkN2JsRDF3ZTJGdEtnblZwQXIyT2c9PSIsInZhbHVlIjoiZmcxOHduY2ZrV3BXN3l3ZHNaR2V5ZVpQdzl1QmpcL0dCVG90ZUxvZEtHM1FuSWpGcDZoaHY5TFliVDYxV0ZZaUsiLCJtYWMiOiJkYzcxNGQ4MDU5MDU5MzMxODRlNDk2MmRkY2FiODI2YmMyM2ZlOTRkZWNmYmRmMjZhYWVmNjQ4MDllMDg5NGZjIn0%3D; expires=Mon, 11-Apr-2022 01:51:47 GMT; Max-Age=7200; path=/; httponly
+Set-Cookie: pageCount=1; expires=Thu, 08-Apr-2032 21:24:37 GMT; Max-Age=315360000; path=/; domain=.mountainproject.com
+Set-Cookie: XSRF-TOKEN=eyJpdiI6InExQkZYSVhtUUFIRzR1b2E0ejBjeFE9PSIsInZhbHVlIjoiM3N1RHhLbURZYWtRUlFKejJuNTE1bzl3TWo0NjNXTzFETDBjWEpGZDhBaFhNQzhiaUJCaTZKTXp1bUtzSk5nYSIsIm1hYyI6ImM0NTY3MzA2NTk4ZjNlNTAzMDI3ZTU5ODM0NDY1MTBlZTA2MGI5MmQzZDkwMmY0NzMzYWQxYmQ2NmFjYTk1NDAifQ%3D%3D; expires=Mon, 11-Apr-2022 23:24:37 GMT; Max-Age=7200; path=/; httponly
+Set-Cookie: laravel_session=eyJpdiI6IkxmVWZEeEQwbE9XS1BVZmRDUmozdmc9PSIsInZhbHVlIjoicm4yMnVCblUwdkVcL29jQ0FSeTQ3OElWeGo0MjY1a2tpRGs2Z2FoNFJBWHZLbVlvUGpJNVltUExORnJIV2YxMnMiLCJtYWMiOiJlMGNmZDdlN2I1NzYyZGM3MGQ1YTNlYzE4ZTZjNDNkODhlZDZjODc5MDMzZmEyNjM4ZjBmMjY0Y2U1MzVlYzljIn0%3D; expires=Mon, 11-Apr-2022 23:24:37 GMT; Max-Age=7200; path=/; httponly
 location: https://www.mountainproject.com/route/105798994/high-exposure
 Cache-Control: max-age=0, must-revalidate, no-cache, no-store, private
 Pragma: no-cache
-X-AP-Request-Id: d108de7d-aa58-414b-83fb-463da9ed0e10
+X-AP-Request-Id: f89115d7-24c7-49cd-9cee-ef9d7a911a94
 
 <!DOCTYPE html>
 <html>
