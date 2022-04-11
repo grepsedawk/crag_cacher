@@ -8,7 +8,8 @@ class MountainProject::Route
     raw : String?,
     name : String?,
     type : String?,
-    rating_yds : String?,
+    first_ascent : String?,
+    rating : String?,
     description : String?,
     photos : Array(MountainProject::Photo)?
 
@@ -43,13 +44,15 @@ class MountainProject::Route
     @type ||= lexbor.css(".description-details td")[1].inner_text.strip
   end
 
-  def rating_yds
-    @rating_yds ||= lexbor
-      .css("span.rateYDS")
-      .first
-      .inner_text
-      .gsub("YDS", "")
-      .strip
+  def first_ascent
+    @first_ascent ||= lexbor.css(".description-details td")[3].inner_text.strip
+  end
+
+  def rating
+    @rating ||= lexbor
+      .css(".inline-block > span.rateYDS")
+      .map(&.inner_text.gsub("YDS", "").strip)
+      .join("|")
   end
 
   def description : String

@@ -3,8 +3,12 @@ class MountainProject::Routes::ShowPage < AuthLayout
 
   def content
     h1 route.name
-    div route.rating_yds
+    div route.rating
     div route.type
+    div do
+      text "First ascent: "
+      text route.first_ascent
+    end
     h2 "Description"
     div do
       raw Markd.to_html route.description

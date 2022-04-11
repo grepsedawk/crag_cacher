@@ -10,7 +10,7 @@ Spectator.describe MountainProject::Route do
 
   provided id = 105798994 do
     expect(route.name).to eq("High Exposure")
-    expect(route.rating_yds).to eq("5.6")
+    expect(route.rating).to eq("5.6")
     expect(route.description).to start_with "High Exposure, aka High E. The climbing itself is flawless,"
     expect(route.description).to end_with "a first pitch that rivals the second in terms of quality."
     expect(route.description).to contain(
@@ -28,11 +28,12 @@ Spectator.describe MountainProject::Route do
     )
     expect(route.url).to eq("https://www.mountainproject.com/route/105798994/high-exposure")
     expect(route.type).to eq "Trad, 250 ft (76 m), 2 pitches"
+    expect(route.first_ascent).to eq "Hans Kraus & Fritz Wiessner - 1941"
   end
 
   provided id = 105835705 do
     expect(route.name).to eq("Southeast Buttress")
-    expect(route.rating_yds).to eq("5.6")
+    expect(route.rating).to eq("5.6")
     expect(route.description).to start_with "You can really climb all over the southest buttress. "
     expect(route.description).to end_with "A spectacular climb not to be missed."
     expect(route.description).to contain(
@@ -48,5 +49,6 @@ Spectator.describe MountainProject::Route do
     )
     expect(route.url).to eq("https://www.mountainproject.com/route/105835705/southeast-buttress")
     expect(route.type).to eq "Trad, Alpine, 700 ft (212 m), 5 pitches, Grade II"
+    expect(route.first_ascent).to eq "Wilts and Spencer Austin, 1943"
   end
 end
