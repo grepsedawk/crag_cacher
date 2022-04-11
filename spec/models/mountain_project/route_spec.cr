@@ -26,6 +26,7 @@ Spectator.describe MountainProject::Route do
       "https://cdn2.apstatic.com/photos/climb/117718492_smallMed_1568038766.jpg"
     )
     expect(route.url).to eq("https://www.mountainproject.com/route/105798994/high-exposure")
+    expect(route.type).to eq "Trad, 250 ft (76 m), 2 pitches"
   end
 
   provided id = 105835705 do
@@ -45,5 +46,6 @@ Spectator.describe MountainProject::Route do
       "https://cdn2.apstatic.com/photos/climb/118352963_smallMed_1581961735.jpg"
     )
     expect(route.url).to eq("https://www.mountainproject.com/route/105835705/southeast-buttress")
+    expect(route.type).to eq "Trad, Alpine, 700 ft (212 m), 5 pitches, Grade II"
   end
 end

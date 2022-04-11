@@ -7,6 +7,7 @@ class MountainProject::Route
     url : String?,
     raw : String?,
     name : String?,
+    type : String?,
     rating_yds : String?,
     description : String?,
     photos : Array(MountainProject::Photo)?
@@ -36,6 +37,10 @@ class MountainProject::Route
 
   def name
     @name ||= lexbor.nodes(:h1).first.inner_text.strip
+  end
+
+  def type
+    @type ||= lexbor.css(".description-details td")[1].inner_text.strip
   end
 
   def rating_yds

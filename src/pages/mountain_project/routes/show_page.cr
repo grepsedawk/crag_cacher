@@ -4,6 +4,7 @@ class MountainProject::Routes::ShowPage < AuthLayout
   def content
     h1 route.name
     div route.rating_yds
+    div route.type
     h2 "Description"
     div do
       raw Markd.to_html route.description
