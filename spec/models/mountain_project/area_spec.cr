@@ -11,7 +11,6 @@ Spectator.describe MountainProject::Area do
   provided id = 121105367 do
     expect(subject.name).to eq "Ashford Bouldering"
     expect(subject.areas.size).to eq 1
-    expect(subject.routes.size).to eq 5
   end
 
   provided id = 105744307 do
