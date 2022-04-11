@@ -25,5 +25,14 @@ class MountainProject::Areas::ShowPage < AuthLayout
         end
       end
     end
+
+    h2 "Photos"
+    div class: "container grid grid-cols-3 gap-2 mx-auto" do
+      area.photos.each do |photo|
+        photo.url.try do |url|
+          img src: url
+        end
+      end
+    end
   end
 end
