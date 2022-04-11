@@ -1,0 +1,29 @@
+HTTP/1.1 301 Moved Permanently
+Date: Mon, 11 Apr 2022 02:59:42 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 630
+Connection: close
+Server: Apache
+Set-Cookie: pageCount=1; expires=Thu, 08-Apr-2032 02:59:42 GMT; Max-Age=315360000; path=/; domain=.mountainproject.com
+Set-Cookie: XSRF-TOKEN=eyJpdiI6IkxjRjN3RnJWajB1TnZVTW9nV09WWVE9PSIsInZhbHVlIjoic0tucElqU0x2Z3BCVXlPbGJXR0xuUk1LeHA3M0YremY0KzdSc0NIZkVtQVNzTXBWZ3JTdjVSSGs3dGFablN5NyIsIm1hYyI6Ijk5YzAwNDM4NWI2MGZhMjc3NjFlODQzOTMwY2YxNmY2ZTBlYTk3ZWI5ZWFmYTMzNWVjNDAyNTg0NWUxYTJmMjMifQ%3D%3D; expires=Mon, 11-Apr-2022 04:59:42 GMT; Max-Age=7200; path=/; httponly
+Set-Cookie: laravel_session=eyJpdiI6Iko2MzlXRzZjWEkwZ0I1eTI5TU5lRVE9PSIsInZhbHVlIjoiZzlRMW5UZkFmV3dUTWtvdGwrd3kwR3lINW5yV1ZBeDZNK2o1VTJRTHFNSmsyRjVNZ3FodTk0M0lMZFhzYUhmbCIsIm1hYyI6IjE2OTVjYzgzZjEzYmNhYjcxYTRhMmY1YTNmMjRlZDFhYWFkODhjMGU3YmU4MWFiOTZjOWRkMTAwM2U3OThkN2MifQ%3D%3D; expires=Mon, 11-Apr-2022 04:59:42 GMT; Max-Age=7200; path=/; httponly
+location: https://www.mountainproject.com/route/105835705/southeast-buttress
+Cache-Control: max-age=0, must-revalidate, no-cache, no-store, private
+Pragma: no-cache
+X-AP-Request-Id: 5015aa49-a27a-4add-ab6e-4ae5aa40c909
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="robots" content="noindex,nofollow" />
+        <style>                body { background-color: #fff; color: #222; font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; margin: 0; }
+                .container { margin: 30px; max-width: 600px; }
+                h1 { color: #dc3545; font-size: 24px; }</style>
+    </head>
+    <body>
+                        <div class="container">
+                    <h1>Whoops, looks like something went wrong.</h1>
+                </div>
+    </body>
+</html>

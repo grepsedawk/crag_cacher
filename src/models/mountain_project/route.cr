@@ -56,7 +56,7 @@ class MountainProject::Route
         end
       end
       .try do |node|
-        html_to_markdown(node)
+        html_to_markdown node.scope.nodes(:div).first
       end || "Description not found"
   end
 
@@ -69,25 +69,29 @@ class MountainProject::Route
         end
       end
       .try do |node|
-        html_to_markdown(node)
+        html_to_markdown node.scope.nodes(:div).first
       end || "Protection not found"
   end
 
   def html_to_markdown(node)
-    node.scope.nodes(:p).map do |child|
-      child.children.map do |child_child|
-        case child_child.tag_sym
-        when :a
-          "[#{child_child.inner_text.strip}](#{child_child.attributes["href"]})"
-        when :img
-          "![#{child_child.attributes["alt"]}](#{child_child.attributes["src"]})"
-        when :_text
-          child_child.tag_text.strip
-        else
-          child_child.inner_text.strip
-        end
-      end.join " "
-    end.join("\n\n")
+    node.children.map do |child|
+      case child.tag_sym
+      when :a
+        "[#{child.inner_text.strip}](#{child.attributes["href"]?})"
+      when :img
+        "![#{child.attributes["alt"]}](#{child.attributes["src"]})"
+      when :_text
+        child.tag_text.strip
+      when :br
+        "\n"
+      when :div
+        html_to_markdown(child)
+      when :p
+        html_to_markdown(child)
+      else
+        child.inner_text.strip
+      end
+    end.join " "
   end
 
   record \
