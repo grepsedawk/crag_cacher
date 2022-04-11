@@ -1,0 +1,29 @@
+HTTP/1.1 301 Moved Permanently
+Date: Mon, 11 Apr 2022 05:05:26 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 630
+Connection: close
+Server: Apache
+Set-Cookie: pageCount=1; expires=Thu, 08-Apr-2032 05:05:26 GMT; Max-Age=315360000; path=/; domain=.mountainproject.com
+Set-Cookie: XSRF-TOKEN=eyJpdiI6IkQrV053Mkc3dU5KNHRqUWVNNHkzZ3c9PSIsInZhbHVlIjoiTFdsUFF4cEJhR090SzliTGNZNHBtWGwzNjgxcHIrTzlLbHZ3S0Vma283aEdhK3F1TmlpNDJlRUpMWW03VHRHdCIsIm1hYyI6IjVlYmM3OGQ3ZGI3ZGI4YjJhM2JmYTNhYzgwOTVkNjY2MGNlYmRmYmY1MDFjZjFiNWM2MDc5NmY2MmRjYmUyZjIifQ%3D%3D; expires=Mon, 11-Apr-2022 07:05:26 GMT; Max-Age=7200; path=/; httponly
+Set-Cookie: laravel_session=eyJpdiI6Im8rcWFQd2NKUlFhNWF2NzR2RTF4R2c9PSIsInZhbHVlIjoic1lOcitDKzZ3VklIclFGb3pCWUdybkt3K29TMzRaXC85SVRDd1MyY0JjM0NqcmxoNG9yaGhabVl1dlNOVFZtdDkiLCJtYWMiOiJlOTUyMGY1OGY4ZDQ3MjM3YmRkNjk4ZWVkOGFjMzUwYWJjMmZkMTAyMDNjMDgyMjQ2ZTNiNDRkYWZmZDFlNWQwIn0%3D; expires=Mon, 11-Apr-2022 07:05:26 GMT; Max-Age=7200; path=/; httponly
+location: https://www.mountainproject.com/route/116685137/ski-boot-slab
+Cache-Control: max-age=0, must-revalidate, no-cache, no-store, private
+Pragma: no-cache
+X-AP-Request-Id: e869abe3-420c-4b8a-adba-b6fb1b56f026
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="robots" content="noindex,nofollow" />
+        <style>                body { background-color: #fff; color: #222; font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; margin: 0; }
+                .container { margin: 30px; max-width: 600px; }
+                h1 { color: #dc3545; font-size: 24px; }</style>
+    </head>
+    <body>
+                        <div class="container">
+                    <h1>Whoops, looks like something went wrong.</h1>
+                </div>
+    </body>
+</html>

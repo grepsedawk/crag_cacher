@@ -49,10 +49,13 @@ class MountainProject::Route
   end
 
   def rating
-    @rating ||= lexbor
-      .css(".inline-block > span.rateYDS")
-      .map(&.inner_text.gsub("YDS", "").strip)
-      .join("|")
+    @rating ||= lexbor.css("h2.inline-block.mr-2").first.children.map do |node|
+      if node.inner_text.includes? "YDS"
+        node.inner_text.strip
+      elsif node.tag_sym == :_text
+        node.tag_text.strip
+      end
+    end.reject(&.blank?).join " | "
   end
 
   def description : String
