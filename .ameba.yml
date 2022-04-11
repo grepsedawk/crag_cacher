@@ -1,0 +1,7 @@
+# It doesn't like the way that spectator does provided:
+Lint/UselessAssign:
+  Description: Disallows useless variable assignments
+  Excluded:
+  - spec/models/mountain_project/route_spec.cr
+  Enabled: true
+  Severity: Warning
