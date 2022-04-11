@@ -15,8 +15,8 @@ Spectator.describe MountainProject::Route do
     expect(route.description).to end_with "a first pitch that rivals the second in terms of quality."
     expect(route.description).to contain(
       "Uberfall.\n\n P1",
-      "[Bonnie's Roof](https://www.mountainproject.com/route/105801433/bonnies-roof)",
-      "[bolted rap stations](https://www.mountainproject.com/area/105798167/the-gunks#a_114577987)"
+      "[Bonnie's Roof](/mountain_project/routes/105801433/bonnies-roof)",
+      "[bolted rap stations](/mountain_project/areas/105798167/the-gunks#a_114577987)"
     )
     expect(route.protection).to contain(
       "A large cam (e.g #4 camalot) fits well into the large crack"
@@ -29,6 +29,13 @@ Spectator.describe MountainProject::Route do
     expect(route.url).to eq("https://www.mountainproject.com/route/105798994/high-exposure")
     expect(route.type).to eq "Trad, 250 ft (76 m), 2 pitches"
     expect(route.first_ascent).to eq "Hans Kraus & Fritz Wiessner - 1941"
+    expect(route.breadcrumbs).to contain(
+      "i. High E",
+      "Trapps",
+      "Gunks",
+      "New York",
+      "All Locations"
+    )
   end
 
   provided id = 105835705 do

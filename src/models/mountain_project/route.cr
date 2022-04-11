@@ -6,6 +6,7 @@ class MountainProject::Route
     url : String?,
     raw : String?,
     name : String?,
+    breadcrumbs : String?,
     type : String?,
     first_ascent : String?,
     rating : String?,
@@ -37,6 +38,10 @@ class MountainProject::Route
 
   def name
     @name ||= lexbor.nodes(:h1).first.inner_text.strip
+  end
+
+  def breadcrumbs
+    @breadcrumbs ||= html_to_markdown(lexbor.css(".mb-half.small.text-warm").first)
   end
 
   def type
@@ -87,7 +92,7 @@ class MountainProject::Route
     node.children.map do |child|
       case child.tag_sym
       when :a
-        "[#{html_to_markdown(child)}](#{child.attributes["href"]?})"
+        "[#{html_to_markdown(child)}](#{converted_url(child.attributes["href"]?)})"
       when :img
         "![#{child.attributes["alt"]}](#{child.attributes["src"]})"
       when :_text
@@ -102,6 +107,12 @@ class MountainProject::Route
         child.inner_text.strip
       end
     end.join(" ").strip
+  end
+
+  def converted_url(url)
+    url.try &.match(%r{(/\w+/\d+\S*)}).try &.[0]
+      .gsub("area", "mountain_project/areas")
+      .gsub("route", "mountain_project/routes")
   end
 
   record \

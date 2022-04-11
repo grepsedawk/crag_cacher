@@ -2,6 +2,9 @@ class MountainProject::Routes::ShowPage < AuthLayout
   needs route : MountainProject::Route
 
   def content
+    div do
+      raw Markd.to_html route.breadcrumbs
+    end
     h1 route.name
     div route.rating
     div route.type
