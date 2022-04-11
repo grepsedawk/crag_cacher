@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+a {
+  color: #1e3c72;
+  text-decoration: underline;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 0 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+}

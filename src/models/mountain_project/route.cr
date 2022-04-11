@@ -85,7 +85,7 @@ class MountainProject::Route
         else
           child_child.inner_text.strip
         end
-      end.join
+      end.join " "
     end.join("\n\n")
   end
 
