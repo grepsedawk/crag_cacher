@@ -82,7 +82,7 @@ class MountainProject::Route
     node.children.map do |child|
       case child.tag_sym
       when :a
-        "[#{child.inner_text.strip}](#{child.attributes["href"]?})"
+        "[#{html_to_markdown(child)}](#{child.attributes["href"]?})"
       when :img
         "![#{child.attributes["alt"]}](#{child.attributes["src"]})"
       when :_text
