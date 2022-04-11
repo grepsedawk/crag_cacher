@@ -12,6 +12,7 @@ class MountainProject::Routes::ShowPage < AuthLayout
       text "First ascent: "
       text route.first_ascent
     end
+    div route.mp_votes
     h2 "Description"
     div do
       raw Markd.to_html route.description

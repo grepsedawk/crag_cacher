@@ -10,6 +10,7 @@ class MountainProject::Route
     type : String?,
     first_ascent : String?,
     rating : String?,
+    mp_votes : String?,
     description : String?,
     photos : Array(MountainProject::Photo)?
 
@@ -60,6 +61,16 @@ class MountainProject::Route
         node.tag_text.strip
       end
     end.reject(&.blank?).join " | "
+  end
+
+  def mp_votes
+    @mp_votes ||= lexbor
+      .css("span:has(.scoreStars)")
+      .first
+      .tag_text
+      .gsub("\n", "")
+      .squeeze(' ')
+      .strip
   end
 
   def description : String
