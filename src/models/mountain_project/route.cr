@@ -1,7 +1,8 @@
-require "xml"
 require "lexbor"
 
 class MountainProject::Route
+  include LuckyCache::Cachable
+
   property \
     url : String?,
     raw : String?,
