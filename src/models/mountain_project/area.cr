@@ -6,6 +6,7 @@ class MountainProject::Area
     url : String?,
     raw : String?,
     name : String?,
+    breadcrumbs : String?,
     areas : Array(MountainProject::Area)?,
     routes : Array(MountainProject::Route)?
 
@@ -40,6 +41,10 @@ class MountainProject::Area
       .gsub("\n", "")
       .squeeze(' ')
       .strip
+  end
+
+  def breadcrumbs
+    @breadcrumbs ||= HtmlToMarkdown.convert lexbor.css(".mb-half.small.text-warm").first
   end
 
   def areas : Array(MountainProject::Area)

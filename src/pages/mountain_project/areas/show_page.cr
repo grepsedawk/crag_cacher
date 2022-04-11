@@ -2,6 +2,10 @@ class MountainProject::Areas::ShowPage < AuthLayout
   needs area : MountainProject::Area
 
   def content
+    div do
+      raw Markd.to_html area.breadcrumbs
+    end
+
     h1 area.name
 
     h2 "Areas"

@@ -89,30 +89,7 @@ class MountainProject::Route
   end
 
   def html_to_markdown(node)
-    node.children.map do |child|
-      case child.tag_sym
-      when :a
-        "[#{html_to_markdown(child)}](#{converted_url(child.attributes["href"]?)})"
-      when :img
-        "![#{child.attributes["alt"]}](#{child.attributes["src"]})"
-      when :_text
-        child.tag_text.strip
-      when :br
-        "\n"
-      when :div
-        html_to_markdown(child)
-      when :p
-        html_to_markdown(child) + "\n\n"
-      else
-        child.inner_text.strip
-      end
-    end.join(" ").strip
-  end
-
-  def converted_url(url)
-    url.try &.match(%r{(/\w+/\d+\S*)}).try &.[0]
-      .gsub("area", "mountain_project/areas")
-      .gsub("route", "mountain_project/routes")
+    HtmlToMarkdown.convert(node)
   end
 
   record \
