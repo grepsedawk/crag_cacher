@@ -92,11 +92,11 @@ class MountainProject::Route
       when :div
         html_to_markdown(child)
       when :p
-        html_to_markdown(child)
+        html_to_markdown(child) + "\n\n"
       else
         child.inner_text.strip
       end
-    end.join " "
+    end.join(" ").strip
   end
 
   record \

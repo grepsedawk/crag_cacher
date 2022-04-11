@@ -14,6 +14,7 @@ Spectator.describe MountainProject::Route do
     expect(route.description).to start_with "High Exposure, aka High E. The climbing itself is flawless,"
     expect(route.description).to end_with "a first pitch that rivals the second in terms of quality."
     expect(route.description).to contain(
+      "Uberfall.\n\n P1",
       "[Bonnie's Roof](https://www.mountainproject.com/route/105801433/bonnies-roof)",
       "[bolted rap stations](https://www.mountainproject.com/area/105798167/the-gunks#a_114577987)"
     )
