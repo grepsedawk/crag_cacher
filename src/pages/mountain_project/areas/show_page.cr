@@ -41,7 +41,7 @@ class MountainProject::Areas::ShowPage < AuthLayout
     div class: "container grid grid-cols-3 gap-2 mx-auto" do
       area.photos.each do |photo|
         photo.url.try do |url|
-          img src: url
+          img src: url, class: "w-full"
         end
       end
     end
